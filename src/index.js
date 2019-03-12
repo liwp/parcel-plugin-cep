@@ -60,6 +60,7 @@ module.exports = async bundler => {
         panelWidth: config.panelWidth,
         panelHeight: config.panelHeight,
         debugInProduction: config.debugInProduction,
+        lifecycle: config.lifecycle,
         out,
       })
       await copyIcons({ bundler, config })
